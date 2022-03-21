@@ -4,7 +4,7 @@ public class MyUser2 {
 	private String name;
 	private int age;
 	private String address;
-//vo , dto 클래스
+//vo , dto 클래스 
 	public MyUser2() {
 		
 	}
