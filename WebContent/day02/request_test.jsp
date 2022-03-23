@@ -27,12 +27,12 @@
 		out.print("<br>data3=");
 		out.print(data3);	/* form_test.html 입력요소 중에 name이 'data3'없습니다. null출력*/
 		//만약에 data1, data2를 덧샘 등 연산을 해야한담녀 -> 정수로 변환
-		int num1 = Integer.parseInt(data1);
-		int num2 = Integer.parseInt(data2);	//사용자 입력이 숫자가 아닌 문자가 포함되면(예,"abc")오류
+		//int num1 = Integer.parseInt(data1);
+		//int num2 = Integer.parseInt(data2);	//사용자 입력이 숫자가 아닌 문자가 포함되면(예,"abc")오류
 								//java.lang.NumberFormatException: "abc"
  /*		int num3 = Integer.parseInt(data3);	//오류 원인 : java.lang.NumberFormatException: null */
 		out.print("<br>data1+data2=");
-		out.print(num1+num2);
+	//	out.print(num1+num2);
 		
 		// 결론 : 사용자 입력오류를 제거하기 위해 1)자바스크립트로 유효성 검사하기
 		//						   2) 서버단에서 try ~catch로 처리하기																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
